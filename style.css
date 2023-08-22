@@ -46,7 +46,7 @@ main {
 
 .buttons {
   display: flex;
-  width: 70%;
+  width: 65%;
 }
 button {
   background: var(--primaryColor);
@@ -56,6 +56,7 @@ button {
   width: 100%;
   color: var(--secundaryColor);
   font-weight: bold;
+  font-size: larger;
 }
 .cartsInfo {
   display: flex;
@@ -126,6 +127,11 @@ footer {
 }
 footer a {
   color: var(--secundaryColor);
+}
+footer .submitInput {
+  box-shadow: 2px 2px 2px 0px rgba(71, 71, 73, 0.363);
+  background: var(--primaryColor);
+  color: white;
 }
 
 @media ((min-width: 0px) and (max-width: 768px)) {
