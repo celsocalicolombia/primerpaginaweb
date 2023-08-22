@@ -9,72 +9,90 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="">Home</a>
-        <a href="">All Travels</a>
-        <a href="">Travels Discount</a>
-      </nav>
-      <h1>Mind Travel</h1>
+      <div>
+        <nav>
+          <a href="">Home</a>
+          <a href="">All Travels</a>
+          <a href="">Travels Discount</a>
+        </nav>
+        <h1>Mind Travel</h1>
+      </div>
     </header>
 
     <main>
-      <div>
+      <div class="buttons">
         <button>Check our discount!</button>
         <button>Schedule</button>
       </div>
-      <div>
+      <div class="cartsInfo">
         <div class="carts">
           <section>
             <h1>Canada</h1>
-            <img src="" alt="Canada" />
+            <img src="./images/canada.jpg" alt="Canada" />
             <p>Include hotel and travel</p>
           </section>
           <section>
-            <h1>Canada</h1>
-            <img src="" alt="Canada" />
-            <p>Include hotel and travel</p>
+            <h1>China</h1>
+            <img src="./images/china.jpg" alt="Canada" />
+            <p>Include hotel, trip and guide</p>
           </section>
           <section>
-            <h1>Canada</h1>
-            <img src="" alt="Canada" />
-            <p>Include hotel and travel</p>
+            <h1>Australia</h1>
+            <img src="./images/city.jpg" alt="Canada" />
+            <p>Only travel</p>
           </section>
         </div>
 
-        <div class="listTable">
-          <ul>
-            <li>Canada</li>
-            <li>China</li>
-            <li>Australia</li>
-          </ul>
-          <table>
-            <thead>
-              <tr>
-                <th>Country</th>
-                <th>Day</th>
-                <th>Discount</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Canada</td>
-                <td>11/10</td>
-                <td>20%</td>
-              </tr>
-              <tr>
-                <td>China</td>
-                <td>09/09</td>
-                <td>10%</td>
-              </tr>
-              <tr>
-                <td>Australia</td>
-                <td>24/08</td>
-                <td>40%</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <article class="listTable">
+          <div>
+            <ul>
+              <li>Canada</li>
+              <li>China</li>
+              <li>Australia</li>
+            </ul>
+            <table>
+              <thead>
+                <tr>
+                  <th>Country</th>
+                  <th>Day</th>
+                  <th>Discount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Canada</td>
+                  <td>11/10</td>
+                  <td>20%</td>
+                </tr>
+                <tr>
+                  <td>China</td>
+                  <td>09/09</td>
+                  <td>10%</td>
+                </tr>
+                <tr>
+                  <td>Australia</td>
+                  <td>24/08</td>
+                  <td>40%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
       </div>
     </main>
+
+    <footer>
+      <h4>Cohort N.</h4>
+      <form action="./show_data.html">
+        <fieldset>
+          <legend>You need more information?</legend>
+
+          <label for="email"> Email: </label>
+          <input type="emial" name="email" />
+          <input type="submit" value="Subscribe" />
+        </fieldset>
+      </form>
+      <a href="mailto:mindtravel@mh.com">mindtravel@mh.com</a>
+    </footer>
   </body>
 </html>
